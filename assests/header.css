@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    width: 40%;
+    display: flex;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    
+}
+.menu__item {
+    display: flex;
+    color: white;
+    margin: 2%;
+    list-style: none;
+    text-decoration: none;
+
+    
+}
