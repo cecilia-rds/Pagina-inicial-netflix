@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+
+}
+.menu__item {
+    display: flex;
+    margin: 5%;
+}
+.menu__link {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
