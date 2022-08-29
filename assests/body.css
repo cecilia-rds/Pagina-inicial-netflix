@@ -1,0 +1,16 @@
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+.destaque {
+    background-image: 
+        url('img/banner\ 1.png');
+        background-repeat: no-repeat;
+        
+    width: 1431px;
+    height: 809px;
+
+}
