@@ -1,0 +1,29 @@
+footer{
+    background-color: black;
+}
+.redes-sociais {
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    margin-left: 3%;
+}
+.menu-rodape {
+    color: white;
+    display: flex;
+    margin-left: 3%;
+}
+.menu-rodape__item {
+    margin-right: 3%;
+}
+.codigo-servico {
+    background-color: black;
+    color: white;
+    margin-left: 2%;
+    padding-top: 1%;
+
+}
+.copyrigth {
+    color: white;
+    margin-left: 2%;
+    padding-top: 1%;
+}
