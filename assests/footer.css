@@ -7,6 +7,9 @@ footer{
     padding-top: 2%;
     margin-left: 3%;
 }
+.redes {
+    margin: 1%;
+}
 .menu-rodape {
     color: white;
     display: flex;
