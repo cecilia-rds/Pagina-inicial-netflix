@@ -1,0 +1,21 @@
+.destaque-titulo {
+    width: 40%;
+    margin-left: 3.5%;
+}
+
+.destaque-descricao {
+    color: white;
+    width: 28%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 3.5%;
+}
+.assistir{
+    height: 2em;
+    margin-left: 3.5%;
+    width: 100px;
+}
+.informacoes {
+    height: 2em;
+    width: 200px;
+}
