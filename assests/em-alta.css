@@ -1,0 +1,9 @@
+.em-alta {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: row;
+}
+.lista__em-alta{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
