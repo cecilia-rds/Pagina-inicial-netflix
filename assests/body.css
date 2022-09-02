@@ -1,16 +1,19 @@
 body {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-}
-.destaque {
-    background-image: 
-        url('img/banner\ 1.png');
-        background-repeat: no-repeat;
-        
-    width: 1431px;
-    height: 809px;
+    font-size: 18px;
 
+
+}   
+.destaque {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 7%,
+        rgba(0, 0, 0, 0.2) 60%,
+        rgba(0, 0, 0, 0.2) 50%),
+        url('img/banner\ 1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
 }
