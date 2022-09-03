@@ -10,12 +10,27 @@
     padding-bottom: 2%;
     margin-left: 3.5%;
 }
-.assistir{
+.btn-assistir{
     height: 2em;
     margin-left: 3.5%;
     width: 100px;
 }
-.informacoes {
+.btn-informacoes {
     height: 2em;
     width: 200px;
+    border: none;
+    background-color: rgba(0, 0, 0, 40%); 
+}
+.informacoes {
+ color: rgb(255, 255, 255);
+ font-weight: bolder;
+    
+}
+.btn-assistir:hover{
+    background-color: gray;
+    border:none;
+}
+.btn-informacoes:hover  {
+    background-color: rgba(0, 0, 0, 90%);
+
 }
