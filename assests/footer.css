@@ -17,6 +17,8 @@
     color: gray;
     padding-bottom: 9%;
 
+    white-space: nowrap;
+
 }
 .codigo-servico {
     background-color: black;
