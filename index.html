@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assests/reset.css">
     <link rel="stylesheet" href="assests/body.css">
     <link rel="stylesheet" href="assests/header.css">
     <link rel="stylesheet" href="assests/menu.css">
     <link rel="stylesheet" href="assests/main.css">
-    <link rel="stylesheet" href="assests/destaques.css">
+    <link rel="stylesheet" href="assests/destaque.css">
+    <link rel="stylesheet" href="assests/lista.css">
+    <link rel="stylesheet" href="assests/minha-lista.css">
+    <link rel="stylesheet" href="assests/em-alta.css">
+    <link rel="stylesheet" href="assests/series-estrangeiras.css">
+    <link rel="stylesheet" href="assests/series-excentricas.css">
+    <link rel="stylesheet" href="assests/footer.css">
     <title>Netflix</title>
 </head>
 <body class="destaque">
-    <div >
+    <div class="">
         <header>
             <nav>
                 <h1 class="logo"><img class="logo" src="assests/img/Netflix_Logo.png"></hi>
@@ -22,83 +29,94 @@
                     <li class="menu__item"><a class="menu__link" href="#">Series</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Filmes</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Bombado</a></li>
+
                     <li class="menu__item"><a class="menu__link" href="#">Minha lista</a></li>
-
-                    <a class="lupa" ><a href="#"><img src="assests/img/icons-pesquisar-24.png" alt="pesquisar"></a>
-                    <a class="notificacao"><a href="#"><img src="assests/img/icons8-sino-24.png" alt="notificações"></a>
-                    <a class="user-perfil"><a href="#""><img src="assests/img/user 1.png" alt="perfil-usuario"></a>
                 </ul>
-
+                <ul class="user">
+                    <li class="user__item"><a href="#"><img src="assests/img/icons-pesquisar-24.png" alt="pesquisar"></a></li>
+                    <li class="user__item"><a href="#"><img src="assests/img/icons8-sino-24.png" alt="notificações"></a></li>
+                    <li class="user__item"><a href="#"><img src="assests/img/user 1.png" alt="perfil-usuario"></a></li>
+                    </ul>
             </nav>
-            
         </header>
         <main>
             <img class="destaque-titulo" src="assests/img/poster 1.png">
         
             <p class="destaque-descricao">Em uma penintenciária de última geração, um detento participa de um experimento com drogas que controlam as emoções para um gênio da industria farmacêutica.</p>
-           
-            <button class="assistir">Assistir</button>
-            <button class="informacoes">Mais informações</button>
+            <button class="btn-assistir"><i class="fa fa-play" style="font-size:15px"></i> Assistir</button>
 
-            <section>
-                <p>Minha lista</p>
-                <img src="assests/img/poster_01.png">
-                <img src="assests/img/poster_02.png">
-                <img src="assests/img/poster_03.png">
-                <img src="assests/img/poster_04.png">
-                <img src="assests/img/poster_05.png">
+            <button class="btn-informacoes"><a class="informacoes"href="#"><i class="fa fa-info-circle"> Mais informações</i></a></button>
+            <p class="lista__titulo">Minha lista</p>
+            <section class="minha-lista">
+                <img src="assests/img/poster_01.png" width="250px">        
+                <img src="assests/img/poster_02.png"width="250px">
+                <img src="assests/img/poster_03.png"width="250px">
+                <img src="assests/img/poster_04.png"width="250px">
+                <img src="assests/img/poster_05.png"width="250px">
             </section>
-            <section>
-                <p>Em alta</p>
-                <img src="assests/img/poster_01 (1).png">
-                <img src="assests/img/poster_02 (1).png">
-                <img src="assests/img/poster_03 (1).png">
-                <img src="assests/img/poster_04 (1).png">
-                <img src="assests/img/poster_05 (1).png">
+            <p class="lista__em-alta">Em alta</p>
+            <section class="em-alta">
+                <img src=" assests/img/poster_01 (1).png"width="250px">
+                <img src="assests/img/poster_02 (1).png"width="250px">
+                <img src="assests/img/poster_03 (1).png"width="250px">
+                <img src=" assests/img/poster_04 (1).png"width="250px">
+                <img src=" assests/img/poster_05 (1).png"width="250px">
+                    
             </section>
-            <section>
-                <p>Séries estrangeiras</p>
-                <img src="assests/img/poster_01 (2).png">
-                <img src="assests/img/poster_02 (2).png">
-                <img src="assests/img/poster_03 (2).png">
-                <img src="assests/img/poster_04 (1).png">
-                <img src="assests/img/poster_05 (2).png">
+                <p class="lista__em-alta">Séries estrangeiras</p>
+            <section class="series-estrangeiras">  
+                <img src="assests/img/poster_01 (2).png"width="250px">
+                <img src="assests/img/poster_02 (2).png"width="250px">
+                <img src="assests/img/poster_03 (2).png"width="250px">
+                <img src="assests/img/poster_04 (1).png"width="250px">
+                <img src="assests/img/poster_05 (2).png"width="250px">
             </section>
-            <section>
-                <p>Séries excêntricas de humor ácido</p>
-                <img src="assests/img/poster_07 (1).png">
-                <img src="assests/img/poster_01.png">
-                <img src="assests/img/poster_09.png">
-                <img src="assests/img/poster_10.png">
+                <p class="lista__series-execentricas">Séries excêntricas de humor ácido</p>
+            <section class="series-excentricas">
+                <img src="assests/img/poster_07 (1).png"width="250px">
+                <img src="assests/img/poster_01.png"width="250px">
+                <img src="assests/img/poster_06.png"width="250px">
+                <img src="assests/img/poster_09.png"width="250px">
+                <img src="assests/img/poster_10.png"width="250px">
+
             </section>
         </main>>
     </div>
-
     <footer>
         <div class="redes-sociais">
-            <img src="assests/img/icon-facebook.svg" alt="icone-facebook">
-            <img src="assests/img/icon-instagram.svg" alt="icone-instagram">
-            <img src="assests/img/icon-twitter.svg" alt="icone-twitter">
-            <img src="assests/img/icon-youtube.svg" alt="icone-youtube">
+            <img class="redes" src="assests/img/icon-facebook.svg" alt="icone-facebook">
+            <img class="redes" src="assests/img/icon-instagram.svg" alt="icone-instagram">
+            <img class="redes" src="assests/img/icon-twitter.svg" alt="icone-twitter">
+            <img class="redes" src="assests/img/icon-youtube.svg" alt="icone-youtube">
         </div>
-        <ul class="menu-rodape">
-            <li class="menu-rodape__item">Idioma e legendas</li>
-            <li class="menu-rodape__item">Impressa</li>
-            <li class="menu-rodape__item">Privacidade</li>
-            <li class="menu-rodape__item">Entre em contato</li>
-            <li class="menu-rodape__item">Idioma e legendas</li>
-            <li class="menu-rodape__item">Audiodescrição</li>
-            <li class="menu-rodape__item">Relação com investidores</li>
-            <li class="menu-rodape__item">Avisos legais</li>
-            <li class="menu-rodape__item">Centro de ajuda</li>
-            <li class="menu-rodape__item">Carreiras</li>
-            <li class="menu-rodape__item">Preferências de cookis</li>
-            <li class="menu-rodape__item">Cartão pre-pago</li>
-            <li class="menu-rodape__item">Temos de uso</li>
-            <li class="menu-rodape__item">informacoes corporativas</li>
-        </ul>
-            <button class="codigo-servico">Codigo do serviço</button>
-            <p class="copyrigth">&copy; 1997-2022 Netflix, Inc.</p>
+        <div class="menu-rodape">
+            <ul class="">
+                <li class="menu-rodape__item">Idioma e legendas</li>
+                <li class="menu-rodape__item">Impressa</li>
+                <li class="menu-rodape__item">Privacidade</li>
+                <li class="menu-rodape__item">Entre em contato</li>
+            </ul>
+            <ul> 
+                <li class="menu-rodape__item">Idioma e legendas</li>
+                <li class="menu-rodape__item">Audiodescrição</li>
+                <li class="menu-rodape__item">Relação com investidores</li>
+                <li class="menu-rodape__item">Avisos legais</li>
+            </ul>
+            <ul>    
+                <li class="menu-rodape__item">Centro de ajuda</li>
+                <li class="menu-rodape__item">Carreiras</li>
+                <li class="menu-rodape__item">Preferências de cookis</li>
+            </ul>
+            <ul>    
+                <li class="menu-rodape__item">Cartão pre-pago</li>
+                <li class="menu-rodape__item">Temos de uso</li>
+                <li class="menu-rodape__item">informacoes corporativas</li>
+            </ul>
+        </div>    
+         <button class="codigo-servico">Codigo do serviço</button>
+
+        <p class="copyrigth">&copy; 1997-2022 Netflix, Inc.</p>
+        
     </footer>
 </body>
     
