@@ -1,11 +1,11 @@
 .lista__em-alta{
+    color: white;
+    margin-left: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-left: 5%;
 }
-.em-alta {
+.series-estrangeiras {
     display: flex;
-    flex-direction: row;
     gap: 0.3em;
     margin-left: 3.5%;
 }

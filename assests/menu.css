@@ -2,14 +2,25 @@
     display: flex;
     align-items: center;
     margin-left: 6%;
+    width: 90px;
+    margin-left: 6%;
+    flex-wrap: nowrap;
 
 }
 .menu__item {
     display: flex;
-    margin: 5%;
+    margin: 8%;
+    white-space: nowrap;
 }
 .menu__link {
     color: white;
     list-style: none;
     text-decoration: none;
 }
+
+.user {
+    align-items: center;
+    display: flex;
+    margin-left: 149%;
+}
+
