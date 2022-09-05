@@ -23,4 +23,8 @@
     display: flex;
     margin-left: 149%;
 }
-
+.user-login{
+    color: white;
+    font-size: 30px;
+    margin: 1%;
+}
