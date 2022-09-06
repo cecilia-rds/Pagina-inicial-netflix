@@ -16,9 +16,11 @@
 .menu-rodape__item {
     color: gray;
     padding-bottom: 9%;
-
     white-space: nowrap;
 
+}
+.menu-rodape__item:hover {
+    text-decoration: underline;
 }
 .codigo-servico {
     background-color: black;
@@ -26,6 +28,10 @@
     color: gray;
     margin-left: 3%;
     padding: 0.5%;
+}
+.codigo-servico:hover {
+    background-color: darkgray;
+    color: black;
 }
 .copyrigth {
     color: gray;
