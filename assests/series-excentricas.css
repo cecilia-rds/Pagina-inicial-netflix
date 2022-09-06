@@ -15,20 +15,17 @@
 section {
     position: relative;
     display: grid;
-    grid-gap: 0.6em;
+    grid-gap: 0.1em;
     grid-template-columns: repeat(5, auto);
-
-  }
+}
   
 .item {
     transition: 250ms all;
-
 }
   
 .-animation:hover {
     margin: 0 40px;
     transform: scale(1.1);
-
 }
   
 .arrow__btn {
@@ -46,31 +43,31 @@ section {
 .arrow__btn i {
     font-size: 6rem;
     color: rgba(255, 255, 255, 0.637);
-  }
+}
   
-  .arrow__btn i:hover {
+.arrow__btn i:hover {
     color: white;
     transform: scale(1.15);
-  }
+}
   
-  .arrow__btn:nth-of-type(1) {
+.arrow__btn:nth-of-type(1) {
     top: -16px;
     bottom: -10px;
     left: 0;
     background: linear-gradient(
       -90deg,
       rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 100%
+      rgb(14, 14, 14) 100%
     );
-  }
+}
   
-  .arrow__btn:nth-of-type(2) {
-    top: -16px;
-    bottom: -10px;
-    right: 0;
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 100%
-    );
-  }
+.arrow__btn:nth-of-type(2) {
+  top: -16px;
+  bottom: -10px;
+  right: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
