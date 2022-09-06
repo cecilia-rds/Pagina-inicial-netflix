@@ -12,6 +12,9 @@
     margin: 8%;
     white-space: nowrap;
 }
+.menu__item:hover {
+    text-decoration: underline;
+}
 .menu__link {
     color: white;
     list-style: none;
@@ -24,7 +27,7 @@
     margin-left: 149%;
 }
 .user-login{
-    color: white;
-    font-size: 30px;
-    margin: 1%;
-}
+    margin-left: 3px;
+    height: 40%;
+ }
+
